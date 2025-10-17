@@ -69,5 +69,6 @@ Configure JDBC connection in DBConnection.java with your MySQL credentials.
 - ✅ Provides efficient console-based employee management
 
 - ✅ Can be extended to integrate GUI or web-based
-  
+
+---
 ---
