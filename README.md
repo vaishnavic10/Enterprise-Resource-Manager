@@ -1,18 +1,17 @@
 # 🏢 Enterprise Resource Manager
 
-**Enterprise Resource Manager** is a **Java-based console application** that enables organizations to efficiently manage **employee records** using **CRUD operations**.  
-This project leverages **JDBC** to connect with a **MySQL database** and follows the **DAO (Data Access Object) pattern** for clean and modular database interaction.
+**Enterprise Resource Manager** is a **Java-based console application** that enables organizations to efficiently manage **employee records** using **CRUD operations**. This project leverages **JDBC** to connect with a **MySQL database** and follows the **DAO (Data Access Object) pattern** for clean and modular database interaction.
 
 ---
 
 ## 📋 Features
 
-- ➕ **Add Employee:** Create a new employee record with **ID, Name, and Salary**  
-- 👀 **View Employees:** Retrieve and display all employee records  
-- ✏️ **Update Employee:** Update employee details (e.g., Name) using **Employee ID**  
-- ❌ **Delete Employee:** Remove an employee record by **ID**  
-- 🗄️ **DAO Pattern:** Ensures modular and maintainable database operations  
-- 🖥️ **Menu-Driven Interface:** Simple console-based navigation for user interaction  
+-  **Add Employee:** Create a new employee record with **ID, Name, and Salary**  
+-  **View Employees:** Retrieve and display all employee records  
+-  **Update Employee:** Update employee details (e.g., Name) using **Employee ID**  
+-  **Delete Employee:** Remove an employee record by **ID**  
+-  **DAO Pattern:** Ensures modular and maintainable database operations  
+-  **Menu-Driven Interface:** Simple console-based navigation for user interaction  
 
 ---
 
@@ -48,6 +47,7 @@ CREATE TABLE employees (
 );
 ```
 ---
+
 Configure JDBC connection in DBConnection.java with your MySQL credentials.
 
 - Run the Application:
@@ -56,8 +56,10 @@ Configure JDBC connection in DBConnection.java with your MySQL credentials.
 
 - Run App.java
 
--  the menu-driven interface to perform CRUD operations
+- the menu-driven interface to perform CRUD operations
+  
 ---
+
 ## 📈 Project Highlights
 
 - ✅ Demonstrates database connectivity using JDBC
@@ -66,5 +68,6 @@ Configure JDBC connection in DBConnection.java with your MySQL credentials.
 
 - ✅ Provides efficient console-based employee management
 
-- ✅ Can be extended to integrate GUI or web-based 
+- ✅ Can be extended to integrate GUI or web-based
+  
 ---
